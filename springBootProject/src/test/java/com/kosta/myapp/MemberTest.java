@@ -18,7 +18,7 @@ public class MemberTest {
 	@Autowired
 	MemberRepository mRepo;
 	
-	@Test
+	//@Test
 	public void jpqlTest1() {
 		//List<Object[]> plist = mRepo.getMemberWithProfileCount1("id");
 		List<Object[]> plist = mRepo.getMemberWithProfileCount2("id");
